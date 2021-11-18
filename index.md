@@ -1,7 +1,8 @@
 # Ellie's Programming Portfolio
 
 ## Adventure Game
-![Intro to Game](https://i.imgur.com/9Hqazp9.png)
+![Game Snapshot](https://i.imgur.com/9Hqazp9.png)
+Game Snapshot
 
 ````
 public void mouseDialogue()
@@ -26,3 +27,4 @@ public void mouseDialogue()
             Game.currentCharacter.hasVisited(true);
         }
 ````
+Code Example
