@@ -1,7 +1,7 @@
 # Ellie's Programming Portfolio
 
 ## Adventure Game
-![Intro to Game](https://imgur.com/a/0QCLOT6)
+![Intro to Game](https://i.imgur.com/9Hqazp9.png)
 
 ````
 public void mouseDialogue()
