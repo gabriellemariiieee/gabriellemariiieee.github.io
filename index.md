@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Ellie's Programming Portfolio
 
-You can use the [editor on GitHub](https://github.com/elliemariiieee/elliemariiieee.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+#Adventure Game
+![] (file:///Users/elliejones/Desktop/Screen%20Shot%202021-11-18%20at%203.57.25%20PM.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elliemariiieee/elliemariiieee.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+````
+public void mouseDialogue()
+        {
+            textColor(ConsoleColor.Green);
+            WriteLine($"Mouse: Hi there! I'm {this.name}. Are you lost? Yes or No?");
+            textColor(ConsoleColor.White);
+            ans = ReadLine().ToLower();
+            Clear();
+            textColor(ConsoleColor.Green);
+            if (ans.Equals("yes"))
+            {
+                WriteLine($"{this.name}: Don't worry! I'll help you! Here, take this, it's a snake charmer just in case you need it. That's all I can really do for you though, sorry. Goodbye now!");
+                Game.firstPlayer.inventory.Add("Snake Charmer");
+            }
+            else if (ans.Equals("no"))
+            {
+                WriteLine($"{this.name}: Oh, okay then. Goodbye!");
+                textColor(ConsoleColor.DarkYellow);
+                WriteLine("Narrator: The mouse runs away.");
+            }
+            Game.currentCharacter.hasVisited(true);
+        }
+````
