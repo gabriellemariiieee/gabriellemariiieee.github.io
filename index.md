@@ -1,7 +1,7 @@
 ## Ellie's Programming Portfolio
 
-#Adventure Game
-![] (file:///Users/elliejones/Desktop/Screen%20Shot%202021-11-18%20at%203.57.25%20PM.png)
+# Adventure Game
+! [] (file:///Users/elliejones/Desktop/Screen%20Shot%202021-11-18%20at%203.57.25%20PM.png)
 
 ````
 public void mouseDialogue()
