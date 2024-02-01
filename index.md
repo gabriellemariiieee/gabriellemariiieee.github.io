@@ -1,4 +1,4 @@
-# Ellie's Programming Portfolio
+# Gabrielle's Programming Portfolio
 
 ## Adventure Game
 ![Game Snapshot](https://i.imgur.com/9Hqazp9.png)
